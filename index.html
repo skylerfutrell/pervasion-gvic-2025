@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gun Violence Incident Counter</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="container">
+        <header>
+            <h1>Gun Violence in America</h1>
+            <p class="subtitle">Real-Time Incident Counter</p>
+        </header>
+        
+        <div class="toggle-container">
+            <button class="toggle-btn active" id="liveBtn">Live Counter</button>
+            <button class="toggle-btn" id="yearlyBtn">Yearly Stats</button>
+            <button class="toggle-btn" id="demographicsBtn">Demographics</button>
+        </div>
+        
+        <div id="liveView">
+            <div class="main-counter">
+                <div class="counter-label">Gun Violence Incidents Since You Opened This Page</div>
+                <div class="counter-wrapper">
+                    <div class="counter" id="incidentCounter">0</div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <p id="timeElapsed">Time elapsed: 0 seconds</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-title">Deaths Today</div>
+                    <div class="stat-value" id="deathsToday">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-title">Injuries Today</div>
+                    <div class="stat-value" id="injuriesToday">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-title">Incidents Per Hour</div>
+                    <div class="stat-value" id="incidentsPerHour">7.2</div>
+                </div>
+            </div>
+            
+            <div class="incident-types">
+                <div class="type-card">
+                    <h3 class="type-title">Incident Breakdown</h3>
+                    <div class="type-stat">
+                        <span class="type-label">Homicides</span>
+                        <span class="type-value" id="homicideCounter">0</span>
+                    </div>
+                    <div class="type-stat">
+                        <span class="type-label">Suicides</span>
+                        <span class="type-value" id="suicideCounter">0</span>
+                    </div>
+                    <div class="type-stat">
+                        <span class="type-label">Mass Shootings</span>
+                        <span class="type-value" id="massShootingCounter">0</span>
+                    </div>
+                    <div class="type-stat">
+                        <span class="type-label">Accidental Shootings</span>
+                        <span class="type-value" id="accidentalCounter">0</span>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <h3 class="type-title">Location Data</h3>
+                    <div class="type-stat">
+                        <span class="type-label">Urban Areas</span>
+                        <span class="type-value" id="urbanCounter">0</span>
+                    </div>
+                    <div class="type-stat">
+                        <span class="type-label">Suburban Areas</span>
+                        <span class="type-value" id="suburbanCounter">0</span>
+                    </div>
+                    <div class="type-stat">
+                        <span class="type-label">Rural Areas</span>
+                        <span class="type-value" id="ruralCounter">0</span>
+                    </div>
+                    <div class="type-stat">
+                        <span class="type-label">Home/Residence</span>
+                        <span class="type-value" id="homeCounter">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="yearlyView" style="display: none;">
+            <!-- Yearly Statistics Section - Hidden by default -->
+            <div class="facts-section">
+                <h2 class="facts-title">Annual Gun Violence Statistics</h2>
+                <ul class="facts-list">
+                    <li class="fact-item">Over 40,000 people die from gun violence in the United States each year.</li>
+                    <li class="fact-item">Approximately 115 people die from gun violence each day in America.</li>
+                    <li class="fact-item">For every person killed with guns, two more are wounded.</li>
+                    <li class="fact-item">Firearms are the leading cause of death for children and teens in the United States.</li>
+                    <li class="fact-item">More than 500 people die in mass shootings in an average year.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="demographicsView" style="display: none;">
+            <!-- Demographics Section - Hidden by default -->
+            <div class="facts-section">
+                <h2 class="facts-title">Demographics & Impact</h2>
+                <ul class="facts-list">
+                    <li class="fact-item">Black Americans are 10 times more likely than white Americans to die by gun homicide.</li>
+                    <li class="fact-item">Men account for 86% of gun deaths and 87% of non-fatal gun injuries.</li>
+                    <li class="fact-item">Gun suicide rates are highest among older white men.</li>
+                    <li class="fact-item">In an average month, 70 women are shot and killed by an intimate partner.</li>
+                    <li class="fact-item">Gun violence costs the U.S. $557 billion annually, representing 2.6% of GDP.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="facts-section">
+            <h2 class="facts-title">Key Facts About Gun Violence</h2>
+            <ul class="facts-list">
+                <li class="fact-item">The U.S. has the highest rate of gun deaths among high-income countries.</li>
+                <li class="fact-item">Access to a gun increases the risk of death by suicide by three times.</li>
+                <li class="fact-item">States with stronger gun laws have lower gun death rates.</li>
+                <li class="fact-item">Nearly two-thirds of gun deaths are suicides.</li>
+                <li class="fact-item">An estimated 4.6 million American children live in homes with at least one unlocked and loaded firearm.</li>
+            </ul>
+            <p class="sources">Sources: CDC, Gun Violence Archive, Everytown Research, American Journal of Public Health</p>
+        </div>
+        
+        <footer>
+            <p class="note">Note: This is a simulation based on average gun violence incident rates in the U.S.</p>
+            <p>Data serves as an educational tool to raise awareness about gun violence in America.</p>
+        </footer>
+    </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
