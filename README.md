@@ -3,6 +3,7 @@
 **Simulating a live data dashboard on U.S. gun-related incidents.**  
 **Disclaimer: Estimated using U.S. incident averages. Not a live data feed.**
 
+## 👀 [View the Dashboard](https://skylerfutrell.github.io/gvic-2025/)
 ## 🔥 Project Overview
 
 This project offers a real-time simulation of gun-related incidents in the United States, emphasizing the frequency and impact of gun violence. It is built with a data dashboard approach to highlight various types of incidents (e.g., homicides, suicides, mass shootings) as well as demographic and geographic patterns.
@@ -60,32 +61,32 @@ You can host this project locally or deploy it via platforms like GitHub Pages, 
         open index.html  # macOS
         start index.html # Windows
 
-[📁 File Structure
+## 📁 File Structure
 
         ├── index.html
         ├── styles.css
         ├── script.js
         └── README.md
 
-### ♿ Accessibility & Performance
+## ♿ Accessibility & Performance
 
 - Semantic HTML elements used for screen reader compatibility.
 - Progress animations are kept minimal to avoid seizure risk.
 - Light, fast-loading CSS/JS—no heavy libraries or frameworks.
 - Mobile-friendly and optimized for all screen sizes.
 
-###📌 Future Improvements
+## 📌 Future Improvements
 
 - Integrate Chart.js for time-series visualizations.
 - Fetch live or recent data from GVA via CSV or API (if permitted).
 - Add local storage to persist user session incident counts.
 - Expand demographic filters by age, race, and region.
 
-### 🤝 Contributing
+## 🤝 Contributing
 
-Contributions are welcome. Fork the project and submit a pull request with improvements or data integrations.]([https://github.com/skylerfutrell/gvic-2025/blob/master/LICENSE](https://github.com/skylerfutrell/gvic-2025/blob/master/LICENSE))
+Contributions are welcome. Fork the project and submit a pull request with improvements or data integrations.
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
+This project is licensed under the [GNU General Public License v3.0]([LICENSE](https://github.com/skylerfutrell/gvic-2025/blob/master/LICENSE)).
 
