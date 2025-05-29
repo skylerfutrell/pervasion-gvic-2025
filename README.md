@@ -60,36 +60,30 @@ You can host this project locally or deploy it via platforms like GitHub Pages, 
         open index.html  # macOS
         start index.html # Windows
 
-📁 File Structure
+[📁 File Structure
 
         ├── index.html
         ├── styles.css
         ├── script.js
         └── README.md
 
-♿ Accessibility & Performance
+### ♿ Accessibility & Performance
 
-Semantic HTML elements used for screen reader compatibility.
+- Semantic HTML elements used for screen reader compatibility.
+- Progress animations are kept minimal to avoid seizure risk.
+- Light, fast-loading CSS/JS—no heavy libraries or frameworks.
+- Mobile-friendly and optimized for all screen sizes.
 
-Progress animations are kept minimal to avoid seizure risk.
+###📌 Future Improvements
 
-Light, fast-loading CSS/JS—no heavy libraries or frameworks.
+- Integrate Chart.js for time-series visualizations.
+- Fetch live or recent data from GVA via CSV or API (if permitted).
+- Add local storage to persist user session incident counts.
+- Expand demographic filters by age, race, and region.
 
-Mobile-friendly and optimized for all screen sizes.
+### 🤝 Contributing
 
-📌 Future Improvements
-
-Integrate Chart.js for time-series visualizations.
-
-Fetch live or recent data from GVA via CSV or API (if permitted).
-
-Add local storage to persist user session incident counts.
-
-Expand demographic filters by age, race, and region.
-
-🤝 Contributing
-
-Contributions are welcome. Fork the project and submit a pull request with improvements or data integrations.
+Contributions are welcome. Fork the project and submit a pull request with improvements or data integrations.]([https://github.com/skylerfutrell/gvic-2025/blob/master/LICENSE](https://github.com/skylerfutrell/gvic-2025/blob/master/LICENSE))
 
 ## License
 
