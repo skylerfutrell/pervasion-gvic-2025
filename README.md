@@ -3,7 +3,7 @@
 **Simulating a live data dashboard on U.S. gun-related incidents.**  
 **Disclaimer: Estimated using U.S. incident averages. Not a live data feed.**
 
-## 👀 [View the Dashboard](https://skylerfutrell.github.io/gvic-2025/)
+## 👀 [View the Dashboard](https://skylerfutrell.github.io/pervasion-gvic-2025/)
 ## 🔥 Project Overview
 
 This project offers a real-time simulation of gun-related incidents in the United States, emphasizing the frequency and impact of gun violence. It is built with a data dashboard approach to highlight various types of incidents (e.g., homicides, suicides, mass shootings) as well as demographic and geographic patterns.
