@@ -1,4 +1,4 @@
-# Gun Violence Incident Counter
+# "Pervasion": the Gun Violence Incident Counter
 
 **Simulating a live data dashboard on U.S. gun-related incidents.**  
 **Disclaimer: Estimated using U.S. incident averages. Not a live data feed.**
