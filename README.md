@@ -88,5 +88,5 @@ Contributions are welcome. Fork the project and submit a pull request with impro
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 [LICENSE](https://github.com/skylerfutrell/gvic-2025/blob/master/LICENSE).
+This project is licensed under the GNU General Public License v3.0 [LICENSE](https://github.com/skylerfutrell/pervasion-gvic-2025/blob/main/LICENSE).
 
