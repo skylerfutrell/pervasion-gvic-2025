@@ -14,7 +14,6 @@ This project offers a real-time simulation of gun-related incidents in the Unite
 
 - **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
 - **Styling:** CSS Grid, Flexbox, Responsive Design
-- **Fonts:** Bebas Neue & Roboto (Google Fonts)
 - **Charting (Future Expansion):** [Chart.js](https://www.chartjs.org/)
 
 ## 📊 Features
